@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD  gunicorn app:app & python -m FileStream
+CMD  python -m FileStream
